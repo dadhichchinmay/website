@@ -1,0 +1,72 @@
+/* html elements can be written directly, without # or .
+class name can be written with . like .first_para
+for id, css can be written with # like #second_para
+slector can be one or combination of any of these
+*/
+header a img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    height: 125vh;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    /* opacity: 0.5; */
+}
+
+main {
+    color: rgb(255, 255, 255);   -moz-animation: alternate;
+}
+
+header {
+    background-color:white;
+    position : fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+#heading{
+    color: blue;
+}
+/* .home{
+    background-image: url(images/background2.jpg);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+} */
+
+.first_para{
+    color: blueviolet;
+}
+
+#second_para{
+    color: red;
+}
+#contactLink a {
+    color: #0707b8;
+    background-color: #dab97d;
+}
+body {
+    background-image: url(images/background2.jpg);
+}
